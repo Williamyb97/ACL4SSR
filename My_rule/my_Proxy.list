@@ -2,6 +2,5 @@
 # 用于在未知流量默认 DIRECT 时，强制指定网站走代理
 
 
-# Cloudflare Workers：匹配我自己账号下的所有 Worker
-DOMAIN-SUFFIX,a1067412899.workers.dev
-
+# 我的 Cloudflare Workers
+DOMAIN-SUFFIX,binyang.workers.dev
