@@ -1,0 +1,12 @@
+# 自定义代理列表
+# 用于在未知流量默认 DIRECT 时，强制指定网站走代理
+
+# GitHub
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+
+# Cloudflare Worker 订阅入口
+DOMAIN,binyang-sub.a1067412899.workers.dev
