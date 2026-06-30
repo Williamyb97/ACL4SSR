@@ -3,4 +3,5 @@
 
 
 # Cloudflare Worker 订阅入口
-DOMAIN,binyang-sub.a1067412899.workers.dev
+DOMAIN,cloudflare.a1067412899.workers.dev
+
