@@ -1,8 +1,10 @@
-# 自定义代理列表
-# 用于在未知流量默认 DIRECT 时，强制指定网站走代理
+# 自定义代理规则
+# 命中后进入「🚀 出口节点」策略组
 
-
-# 我的 Cloudflare Workers
+# DOMAIN-SUFFIX 表示匹配该域名及其所有子域名
 DOMAIN-SUFFIX,binyang.workers.dev
 
+
+
+# DOMAIN 表示精确匹配单个域名
 DOMAIN,onedrive.live.com
