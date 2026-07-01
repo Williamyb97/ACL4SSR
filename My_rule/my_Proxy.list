@@ -4,3 +4,5 @@
 
 # 我的 Cloudflare Workers
 DOMAIN-SUFFIX,binyang.workers.dev
+
+DOMAIN,onedrive.live.com
