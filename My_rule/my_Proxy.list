@@ -4,8 +4,11 @@
 # DOMAIN-SUFFIX 表示匹配该域名及其所有子域名
 DOMAIN-SUFFIX,binyang.workers.dev
 
-# jsDelivr Fastly CDN，用于更新 Country.mmdb
+# GeoIP / GeoSite / Country.mmdb 更新
 DOMAIN,fastly.jsdelivr.net
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
 
 # DOMAIN 表示精确匹配单个域名
 DOMAIN,onedrive.live.com
