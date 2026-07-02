@@ -1,12 +1,20 @@
 # 自定义直连规则
 # 命中后进入「🏠 国内直连」策略组
-# 这里只写域名，不写 http/https、不写端口、不写路径、不写参数
 
-# NAS 自用域名
+# ========== NAS 自用域名：精确匹配 ==========
 DOMAIN,yangbin.synology.me
 DOMAIN,yangbin.duckdns.org
 DOMAIN,yangbin1997.fnos.net
 
-# Synology QuickConnect
+# ========== NAS 自用域名：同类服务扩展 ==========
+# 用于覆盖其他后续机器
+DOMAIN-SUFFIX,synology.me
+DOMAIN-SUFFIX,duckdns.org
+DOMAIN-SUFFIX,fnos.net
+
+# ========== Synology QuickConnect ==========
 DOMAIN,quickconnect.cn
 DOMAIN,yangbinqc.quickconnect.cn
+
+# 覆盖 yangbinqc.quickconnect.cn、yangbin2qc.quickconnect.cn 等
+DOMAIN-SUFFIX,quickconnect.cn
