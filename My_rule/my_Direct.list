@@ -1,0 +1,12 @@
+# 自定义直连规则
+# 命中后进入「🏠 国内直连」策略组
+# 这里只写域名，不写 http/https、不写端口、不写路径、不写参数
+
+# NAS 自用域名
+DOMAIN,yangbin.synology.me
+DOMAIN,yangbin.duckdns.org
+DOMAIN,yangbin1997.fnos.net
+
+# Synology QuickConnect
+DOMAIN,quickconnect.cn
+DOMAIN,yangbinqc.quickconnect.cn
