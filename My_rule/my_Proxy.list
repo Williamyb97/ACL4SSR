@@ -10,6 +10,5 @@ DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubusercontent.com
 
-# DOMAIN 表示精确匹配单个域名
-DOMAIN,onedrive.live.com
+
 
