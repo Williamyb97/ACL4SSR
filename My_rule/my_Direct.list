@@ -1,19 +1,15 @@
 # 自定义直连规则
 # 命中后进入「🏠 国内直连」策略组
 
-# ========== NAS 自用域名：精确匹配 ==========
-DOMAIN,yangbin.synology.me
-DOMAIN,yangbin.duckdns.org
-DOMAIN,yangbin1997.fnos.net
+# ========== 腾讯云 SCF 订阅 ==========
+DOMAIN-SUFFIX,tencentscf.com
 
-# ========== NAS 自用域名：同类服务扩展 ==========
-# 用于覆盖其他后续机器
+# ========== NAS 自用域名 ==========
+DOMAIN,yangbin.duckdns.org
 DOMAIN-SUFFIX,synology.me
 DOMAIN-SUFFIX,fnos.net
 
 # ========== Synology QuickConnect ==========
 DOMAIN,quickconnect.cn
 DOMAIN,yangbinqc.quickconnect.cn
-
-# 覆盖 yangbinqc.quickconnect.cn、yangbin2qc.quickconnect.cn 等
 DOMAIN-SUFFIX,quickconnect.cn
