@@ -1,14 +1,15 @@
 # 自定义代理规则
 # 命中后进入「🚀 出口节点」策略组
 
-# DOMAIN-SUFFIX 表示匹配该域名及其所有子域名
+# ========== Cloudflare Workers 订阅 ==========
 DOMAIN-SUFFIX,binyang.workers.dev
 
-# GeoIP / GeoSite / Country.mmdb 更新
-DOMAIN,fastly.jsdelivr.net
+# ========== GitHub / CDN 资源 ==========
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubusercontent.com
+
+
 
 
 
